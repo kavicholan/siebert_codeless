@@ -1,0 +1,15 @@
+syntax = "proto3";
+import "google/protobuf/empty.proto";
+package ftp;
+
+option java_package = "com.ftp.generated";
+option java_multiple_files = true;
+
+message Response{
+  string status = 1;
+}
+
+service FtpService{
+  rpc uploadFile(google.protobuf.Empty) returns (Response){};
+  rpc downloadFile(google.protobuf.Empty) returns(Response){};
+}

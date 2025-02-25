@@ -1,0 +1,6 @@
+{
+"portfolioType": "R",
+"fromDate": "${FromDate}",
+"toDate": "${ToDate}",
+"taxYear": "$TaxYear"
+}

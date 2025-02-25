@@ -1,0 +1,7 @@
+{  
+    "activityType": "All",
+    "currency": "USD",
+    "startingDay": "${FromDate}",
+    "endingDay": "${ToDate}",
+    "symbol": ""
+}

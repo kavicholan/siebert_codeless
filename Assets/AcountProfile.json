@@ -1,0 +1,7 @@
+{
+  "loadAccountInfo": true,
+  "loadTaxRelated": true,
+  "loadInstructions": true,
+  "loadInterestedParties": true,
+  "loadOwnerInfo": true
+}
